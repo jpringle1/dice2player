@@ -12,7 +12,7 @@ let score = [
 ]
 
 let playerChange = () => {
-    message[activePlayer].style.color="white"
+    message[activePlayer].style.color="black"
     if(activePlayer==1) {
         activePlayer=0;
     } else {
@@ -46,7 +46,7 @@ newGame.addEventListener("click",(event) => {
     diceImg.style.display="none"
     main.style.display="flex";
     messageInit(0, "orange");
-    messageInit(1, "white");
+    messageInit(1, "black");
 })
 
 let win = () => {
