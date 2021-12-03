@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css"></link>
+    <title>Document</title>
+</head>
+<body>
+    <div class="center">
+        <button id="newGame">New Game</button>
+        <div id="main">
+            <h1>Begin game when 'roll' is clicked</h1>
+            <div id="playArea">
+                <div id="overlay">
+                    <img id="diceImg" src="./res/dice1.png" width="100px">
+                    <button id="button">roll</button>
+                    <button id="hold">hold</button>
+                </div>
+                <div class="border">
+                    <div id="dice">
+                        <p class="message">Player 1</p>
+                        <p class="score">0</p>
+                    </div>
+                </div>
+                <div class="border">
+                    <div id="dice">
+                        <p class="message">Player 2</p>
+                        <p class="score">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
